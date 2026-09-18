@@ -9,7 +9,7 @@ const envSchema = z.object({
     .default("development"),
   JWT_SECRET: z.string().min(1).default("fallback_secret_change_me"),
   BACKEND_URL: z.string().url().default("http://localhost:7000"),
-  FRONTEND_URL: z.string().url().default("http://localhost:5173"),
+  FRONTEND_URL: z.string().url().default("http://localhost:3000"),
   DATABASE_URL: z.string().default(""),
 });
 
