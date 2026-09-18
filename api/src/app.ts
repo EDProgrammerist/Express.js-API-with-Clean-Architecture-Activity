@@ -4,7 +4,7 @@ import express from "express";
 import helmet from "helmet";
 import hpp from "hpp";
 
-import { env } from "./config/env.js";
+import { env } from "@/config/env";
 
 const app = express();
 

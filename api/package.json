@@ -8,7 +8,10 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsdown src/server.ts --format esm --clean --minify",
     "start": "node dist/server.mjs",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "contract:emit": "prisma contract emit"
   },
   "keywords": [],
   "author": "",
